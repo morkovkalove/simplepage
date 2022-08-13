@@ -27,7 +27,6 @@ body {
 
 }
 
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -72,7 +71,6 @@ body {
   background-repeat: no-repeat;
   color:#3f2aff;
 }
-
 
 /* article page */
 .container {
@@ -160,8 +158,6 @@ body {
   width: 100%;
 }
 
-/* Сделать для заголовков второго уровня отступ снизу 10 пикселей. */
-/* Сделать для заголовков третьего уровня отступ снизу 10 пикселей. */
 h2 {
   font-size: 40px;
   line-height: 46px;
@@ -205,8 +201,6 @@ p>img {
   margin-bottom: 40px;
 }
 
-/* Сделать для элементов figure следующие стили: строчно-блочность отступ снизу 40 пикселей ширину 872 пикселя
- */
 figure {
   display: inline-block;
   /* font-size: 0; */
