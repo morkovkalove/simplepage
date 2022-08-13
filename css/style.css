@@ -1,0 +1,337 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.img {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 19px 0 19px 0;
+  max-width: 100%;
+
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo__link {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.blanks {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.blanks>a {
+  padding: 24px 49px 24px 49px;
+}
+
+.blanks>a:not(:last-child) {
+  margin-right: 25px;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.download_link {
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 30px;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color:#3f2aff;
+}
+
+
+/* article page */
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+.bg_blue-text {
+  font-weight: 700;
+  font-size: 30px;
+  background-color: #3f2aff;
+  color: #fff;
+  padding: 50px 95px 50px 95px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.description {
+  text-align: center;
+}
+
+.h1 {
+  font-weight: 400;
+  font-size: 60px;
+  color: #333;
+  margin-bottom:40px;
+}
+
+.gray_b-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+  margin-bottom: 40px;
+  width: 672px
+}
+
+.gray_block {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+
+.gray_block:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.gray_block .p {
+  width: 692px;
+  padding-bottom: 10px;
+
+}
+
+.logo__head {
+  background-image: url("../img/decorate-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.logo__footer {
+  background-image: url("../img/decorate-2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 30px;
+  background-color: #3f2aff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 50px 95px 50px 95px;
+  width: 100%;
+}
+
+/* Сделать для заголовков второго уровня отступ снизу 10 пикселей. */
+/* Сделать для заголовков третьего уровня отступ снизу 10 пикселей. */
+h2 {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul li {
+  font-size: 20px;
+
+}
+
+ul li::marker {
+  color: #3f2aff;
+}
+
+.list {
+  padding-left: 15px;
+
+}
+
+.list .list_li:not(:last-child) {
+  padding-bottom: 20px;
+
+}
+
+.list_li a {
+  border-bottom: 1px solid #3f2aff;
+  color: #3f2aff;
+}
+
+p>img {
+  margin-bottom: 40px;
+}
+
+/* Сделать для элементов figure следующие стили: строчно-блочность отступ снизу 40 пикселей ширину 872 пикселя
+ */
+figure {
+  display: inline-block;
+  /* font-size: 0; */
+  width: 872px;
+  padding-bottom: 40px;
+  border: 1px solid #b6b6b6;
+  border-top: none;
+}
+
+
+/* modules */
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  font-family: "Arial", san-serif;
+}
+
+.logo {
+  margin: 50px 25px;
+}
+
+.subheader {margin-bottom: 50px;}
+
+.arrow{padding-bottom: 3px;}
+
+.return_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3F2AFF;
+  padding-bottom: 25px;
+}
+
+.header_text {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 68.99px;
+  color: #3F2AFF;
+}
+
+.list__wrapper {
+  font-size: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.module__card {
+  width: 572px;
+  height: 505px;
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+  background-color: #fff;
+  vertical-align: top;
+
+  margin-bottom: 25px;
+  margin-right: 25px;
+
+  padding: 205px 25px 25px 25px;
+}
+
+.module__card:nth-child(2n) { margin-right: 0; }
+
+.module__card p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  margin: 2px;
+}
+
+.module__card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+}
+
+.image-1:before {
+  background-image: url("../img/firstblock.png");
+}
+
+.image-2:before {
+  background-image: url("../img/secondblock.png");
+}
+
+.image-3:before {
+  background-image: url("../img/thirdblock.png");
+}
+
+
+.image-4:before {
+  background-image: url("../img/fouthblock.png");
+}
+
+.description-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+.module__number {
+  position: absolute;
+  color: #EAEAEA;
+  right: 5%;
+  bottom: 2%;
+  font-size: 40px;
+}
+
+.button-show {text-align: center;}
+
+.show_all {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #3F2AFF;
+  background: #fff;
+  color: #3F2AFF;
+  cursor: pointer;
+  margin: 50px 50px;
+
+  padding: 24px 75px 24px 75px;
+
+}
